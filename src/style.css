@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter,wght@14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-custom-green: hsl(75, 94%, 57%);
+    --color-custom-white: hsl(0, 0%, 100%);
+    --color-custom-grey-700: hsl(0, 0%, 20%);
+    --color-custom-grey-800: hsl(0, 0%, 12%);
+    --color-custom-grey-900: hsl(0, 0%, 8%);
+
+    --breakpoint-mobile: 23.44rem; /* 375px */
+    --breakpoint-desktop: 90rem; /* 1440px */
+}
+
+@layer utilities {
+    .button {
+        @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+    }
+}
+
+html,
+body {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    color: var(--color-custom-grey-700);
+    background-color: var(--color-custom-grey-900);
+}
