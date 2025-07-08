@@ -1,6 +1,4 @@
 import "./style.css";
-import javascriptLogo from "./javascript.svg";
-import viteLogo from "/vite.svg";
 import { setupCounter } from "./counter.js";
 
 document.querySelector("#app").innerHTML = `
@@ -28,7 +26,7 @@ document.querySelector("#app").innerHTML = `
             "Front-end developer and avid reader"
           </p>
           <div class="flex flex-col gap-y-3.5 justify-center items-center w-full">
-            <a href="/" class=" text-sm rounded-md w-full py-3.5  hover:bg-custom-green hover:text-custom-grey-700 transition-colors duration-300 bg-custom-grey-700 text-custom-white text-center font-semibold">GitHub</a>
+            <a href="/" class="cursor-[url('/assets/images')] text-sm rounded-md w-full py-3.5  hover:bg-custom-green hover:text-custom-grey-700 transition-colors duration-300 bg-custom-grey-700 text-custom-white text-center font-semibold">GitHub</a>
             <a href="/" class=" text-sm rounded-md w-full py-3.5  hover:bg-custom-green hover:text-custom-grey-700 transition-colors duration-300 bg-custom-grey-700 text-custom-white text-center font-semibold">Frontend Mentor</a>
             <a href="/" class=" text-sm rounded-md w-full py-3.5  hover:bg-custom-green hover:text-custom-grey-700 transition-colors duration-300 bg-custom-grey-700 text-custom-white text-center font-semibold">LinkedIn</a>
             <a href="/" class=" text-sm rounded-md w-full py-3.5  hover:bg-custom-green hover:text-custom-grey-700 transition-colors duration-300 bg-custom-grey-700 text-custom-white text-center font-semibold">Twitter</a>
