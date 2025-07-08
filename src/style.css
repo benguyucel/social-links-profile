@@ -17,7 +17,7 @@
 html,
 body {
     font-family: 'Inter', sans-serif;
-    font-style: normal;
+
     color: var(--color-custom-grey-700);
     background-color: var(--color-custom-grey-900);
 }
